@@ -13,9 +13,10 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Great+Vibes&family=Oleo+Script:wght@400;700&family=Six+Caps&family=Viaoda+Libre&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
     rel="stylesheet">
+    <!-- <link rel="preload" href="./assets/pictures/photodemoi3.webp" as="image"> -->
   <!-- <script src="data/galleryData.js"></script> -->
   <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-  <script src="https://kit.fontawesome.com/a14ead306a.js" crossorigin="anonymous"></script>
+  <!-- <script src="https://kit.fontawesome.com/a14ead306a.js" crossorigin="anonymous"></script> -->
   <title>Portfolio</title>
 </head>
 
@@ -50,7 +51,7 @@
     <section id="about-me" class="about-me">
       <div id="about-me-content">
         <div id="about-me-img">
-          <img src="./assets/pictures/photodemoi2.webp" alt="photo de moi">
+          <img defer src="./assets/pictures/photodemoi3.webp" alt="photo de moi">
 
         </div>
         <div id="about-me-description">
@@ -184,10 +185,10 @@
       </div>
     </div>
   </div>
-  <script  async src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" ></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script defer src="data/galleryData.js"></script>
   <script defer src="./js/gallery.js"></script>
-  <script src="data/galleryData.js"></script>
 </body>
 
 </html>

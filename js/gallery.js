@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const img = document.createElement('img');
             img.src = item.src;
+            img.loading = 'lazy';
             img.className = 'card-img-top';
             img.alt = item.alt;
 
