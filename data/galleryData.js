@@ -6,8 +6,8 @@ const galleryItems = [
         src: "assets/pictures/slides/argentbank.png",
         category: "react redux",
         link: "https://github.com/borisblanche/Projet11-ArgentBank-website.git",
-        description: 'création d une aplication bancaires web ',
-        details:"créattion d' application en réact , appels api pour récupérer et manipuler des données , gestion de l authentification utilisateur( avec redux )  ",
+        description: 'Création d une aplication bancaires web ',
+        details:" Appels api pour récupérer et manipuler des données , gestion de l authentification utilisateur( avec redux )  ",
         logo: 'assets/pictures/logos/react.png',
         alt: "capture d ecran du projet"
     },
@@ -17,7 +17,7 @@ const galleryItems = [
         src: "assets/pictures/slides/724events.png",
         category: "react", link: "https://github.com/borisblanche/P10.git",
         logo: 'assets/pictures/logos/react.png',
-        description: 'debuggage d une aplication react',
+        description: 'Debuggage d une aplication react',
         details:"Projet de débuggage de plusieurs components via l'utilisation de tests",
         alt: "capture d ecran du projet"
     },
@@ -28,7 +28,7 @@ const galleryItems = [
         category: "seo",
         link: "https://github.com/borisblanche/Projet9-Nina-Carducci.git",
         logo: 'assets/pictures/logos/seo-search-symbol.png',
-        description: 'améliorer le référencement d un site ',
+        description: 'Améliorer le référencement d un site ',
         details:"Projet visant a améliorer le référencement , les performances , et l'accecibilité du site en utilsant Lighthouse",
         alt: "capture d ecran du projet"
     },
@@ -38,8 +38,8 @@ const galleryItems = [
         src: "assets/pictures/slides/kasa.png ",
         category: "react", link: "https://github.com/borisblanche/projet8-kasa.git",
         logo: 'assets/pictures/logos/react.png',
-        description: 'création d une aplication web en react',
-        details:"initiation a nodeJs, react , créations de routes",
+        description: 'Création d une aplication web en react',
+        details:"Initiation a nodeJS, react , créations de routes",
         alt: "capture d ecran du projet"
     },
     {
@@ -49,8 +49,8 @@ const galleryItems = [
         category: "javascript",
         link: "https://github.com/borisblanche/Projet-6-SophieBluel.git",
         logo: 'assets/pictures/logos/js.png',
-        description: 'création d une page web bynamique en javascript',
-        details:"manipulation du dom , et récupération de données",
+        description: 'Création d une page web bynamique en javascript',
+        details:"Manipulation du dom , et récupération de données",
         alt: "capture d ecran du projet"
     },
     {
@@ -60,8 +60,8 @@ const galleryItems = [
         category: "javascript",
         link: "https://github.com/borisblanche/P10.git",
         logo: 'assets/pictures/logos/js.png',
-        description: 'site avec création de slider en javascript js',
-        details:"premiere utilisation de javascript pour manipuler le dom",
+        description: 'Site avec création de slider en javascript js',
+        details:"Pemiere utilisation de javascript pour manipuler le dom",
         alt: "capture d ecran du projet"
     },
     {
@@ -71,8 +71,8 @@ const galleryItems = [
         category: "css",
         link: "https://github.com/borisblanche/projet-5-Ohmyfood.git",
         logo: 'assets/pictures/logos/css-3.png',
-        description: 'amélioration d un site mobile',
-        details:"intégration de maquette en mobile-first et animations css",
+        description: 'Amélioration d un site mobile',
+        details:"Intégration de maquette en mobile-first et animations css",
         alt: "capture d ecran du projet"
     },
     {
@@ -82,8 +82,8 @@ const galleryItems = [
         category: "css",
         link: "https://github.com/borisblanche/projet-4-Booki.git",
         logo: 'assets/pictures/logos/css-3.png',
-        description: 'création d une page d acceuil en HTML/CSS',
-        details:"implémentation d'une page responsive depuis une maquette",
+        description: 'Création d une page d acceuil en HTML/CSS',
+        details:"Implémentation d'une page responsive depuis une maquette",
         alt: "capture d ecran du projet"
     },
   

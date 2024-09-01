@@ -318,7 +318,7 @@ body {
     animation: slideFadeIn 2s ease forwards;
     text-align: center;
     font-size: 24px; 
-    margin: 20px;
+    /* margin: 20px; */
     padding-top: 30px;
    
     
@@ -550,11 +550,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 10%;
+    top: 20px ;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    background-color: #0056b3;
+    /* background-color: #0056b3; */
+    background-color: black;
     padding: 10px;
     border-radius: 5px;
     font-size: 20px;
@@ -845,9 +846,98 @@ body {
 
     #about-me-description {
         margin-right: 0;
+        
+    }
+.description{
+    padding-bottom: 20px;
+}
+    
+    #presentation p{
+        background-color: red;/*retrouver le probleme de margin */
+        margin-bottom: 0px;/*retrouver le probleme de margin */
     }
 
 }
+@media (max-width: 1024px){
+    #about-me-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about-me-img {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding-top: 0%;
+        margin: 0%;
+    }
+
+    #about-me-img img {
+        max-width: 220px;
+        left: 1px;
+    }
+
+    #about-me-description {
+        width: 100%;
+        
+    }
+
+    .gallery-item {
+        flex: 1 1 calc(50% - 40px);
+    }
+
+    .card-img-top {
+        max-height: 150px;
+    }
+    #about-me{
+        padding: 0;
+    }
+   
+    #about-me-competences{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .languages ul{
+        display: flex;
+        justify-content: space-around;
+        
+        
+    }
+    .languages li{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .competences ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width:100%;
+        
+       
+    }
+    .competences li{
+        font-size: 22px;
+        
+       
+    }
+
+    #presentation {
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+    #presentation p{
+        font-size: 20px;
+        
+    }
+    #contact-form{
+        max-width: 80%;
+        height: auto;
+    }
+}
+    
+
 
 @media (max-width: 992px) {
     #about-me-content {
@@ -947,12 +1037,12 @@ body {
         flex-direction: column;
         width: 100%;
     }
-    .languages ul{
+    /* .languages ul{
         display: flex;
         justify-content: flex-start;
         
         
-    }
+    } */
     .languages li{
         margin-left: 10px;
         margin-right: 10px;
@@ -998,12 +1088,12 @@ body {
         flex-direction: column;
         width: 100%;
     }
-    .languages ul{
+    /* .languages ul{
         display: flex;
         justify-content: flex-start;
         
         
-    }
+    } */
     .languages i{
         margin-left: 10px;
         margin-right: 10px;
@@ -1033,6 +1123,23 @@ body {
 }
 
 @media (max-width: 682px) {
+    #presentation {
+    width: 100%;
+    margin: 0;
+    
+    }
+
+    .description{
+        padding-top: 0;
+    }
+    .descriptionh2{
+        margin-top: 0!important;
+    }
+    .description p {
+     font-size: 14px!important;
+     
+    }
+
     .gallery-filter {
         text-align: center;
         margin-bottom: 20px;
@@ -1092,4 +1199,37 @@ body {
         padding: 0;
     }
 
+}
+@media(max-width:600px){
+    #about-me-competences{
+        /* flex-direction: row; */
+    }
+    .competences ul{
+        flex-direction: column;
+        padding:0;
+        margin: 0;
+    }
+    .competences li{
+        padding: 0;
+    }
+}
+@media(max-width:489px){
+    .filter-btn{
+        
+        /* font-size: 15px!important; */
+
+    }
+}
+@media(max-width:428px){
+    .gallery-filter{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 40% 40%;
+       
+    }
+    .filter-btn{
+        
+        /* font-size: 12px!important; */
+
+    }
 }
