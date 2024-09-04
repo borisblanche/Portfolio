@@ -4,38 +4,16 @@ body {
 }
 
 .navbar {
-    /* background: radial-gradient(circle at 1.8% 4.8%, rgb(17, 23, 58) 0%, rgb(58, 85, 148) 90%); */
     background: radial-gradient(circle at 1.8% 4.8%, rgb(17, 23, 58) 0%, rgb(58, 85, 148) 90%);
     color: white !important;
     text-shadow: 1px 1px 1px black;
     padding: 1%;
 }
 
-.nav-menu{
+.nav-menu-picture {
     background: none;
     fill: white;
-    
 }
-/* .roboto-mono {
-    font-family: "Roboto Mono", monospace;
-
-    font-weight: 400;
-    font-style: normal;
-}
-
-.baskervville-sc-regular {
-    font-family: "Baskervville SC", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-
-
-.great-vibes-regular {
-    font-family: "Great Vibes", cursive;
-    font-weight: 400;
-    font-style: normal;
-} */
 
 .navbar-brand {
     color: white !important;
@@ -68,11 +46,6 @@ body {
     border: none !important;
 }
 
-.fa-caret-down {
-    color: #fff !important;
-
-}
-
 .navbar-brand img {
     height: 40px;
 }
@@ -83,7 +56,7 @@ body {
 
 
 
-@keyframes gradient {
+/* @keyframes gradient {
     0% {
         background-position: 0% 50%;
     }
@@ -95,11 +68,11 @@ body {
     100% {
         background-position: 0% 50%;
     }
-}
+} */
 
 
 .dev-logo {
-    
+
     width: 50px;
     background-color: white;
     color: white;
@@ -114,17 +87,14 @@ body {
 }
 
 #about-me {
-    
-    /* padding: 50px; */
     padding-bottom: 50px;
     padding-top: 150px;
     background-image: linear-gradient(112.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%, rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%, rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%, rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%, rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%, rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%, rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%), linear-gradient(157.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%, rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%, rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%, rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%, rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%, rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%, rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%), linear-gradient(135deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%, rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%, rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%, rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%, rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%, rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%, rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%), linear-gradient(90deg, rgb(195, 195, 195), rgb(228, 228, 228));
     background-blend-mode: overlay, overlay, overlay, normal;
-    /* background-color:green ; */
+
 }
 
 #about-me-content {
-    /* background-color: yellow; */
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -135,17 +105,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
- 
-    
-  
-    /* background-color: red; */
-    /* margin: 2%; */
     width: 25%;
-    /* padding: 2%; */
 }
 
 #about-me-img img {
-    
+
     display: block;
     max-width: 300px;
     max-height: 300px;
@@ -161,7 +125,7 @@ body {
 }
 
 #about-me-description {
-   text-align: center;
+    text-align: center;
     width: 50%;
     display: flex;
     background-image: repeating-linear-gradient(45deg, hsla(207, 0%, 63%, 0.05) 0px, hsla(207, 0%, 63%, 0.05) 1px, transparent 1px, transparent 11px, hsla(207, 0%, 63%, 0.05) 11px, hsla(207, 0%, 63%, 0.05) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(0deg, hsla(207, 0%, 63%, 0.05) 0px, hsla(207, 0%, 63%, 0.05) 1px, transparent 1px, transparent 11px, hsla(207, 0%, 63%, 0.05) 11px, hsla(207, 0%, 63%, 0.05) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(135deg, hsla(207, 0%, 63%, 0.05) 0px, hsla(207, 0%, 63%, 0.05) 1px, transparent 1px, transparent 11px, hsla(207, 0%, 63%, 0.05) 11px, hsla(207, 0%, 63%, 0.05) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(90deg, hsla(207, 0%, 63%, 0.05) 0px, hsla(207, 0%, 63%, 0.05) 1px, transparent 1px, transparent 11px, hsla(207, 0%, 63%, 0.05) 11px, hsla(207, 0%, 63%, 0.05) 12px, transparent 12px, transparent 32px), linear-gradient(90deg, rgb(17, 17, 17), rgb(66, 66, 66));
@@ -188,7 +152,6 @@ body {
 }
 
 .languages ul {
-    /* background-color: #0056b3; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -200,22 +163,14 @@ body {
     list-style: none;
 }
 
-/* .languages i {
-    font-size: 50px;
-} */
-
-/* .languages li:hover {
-    transform: translatey(-10px);
-} */
-
-.competences ul{
+.competences ul {
     list-style: none;
     text-align: center;
     margin-top: auto;
     display: flex;
     flex-direction: column;
-   
-   
+
+
 }
 
 .competences li {
@@ -224,11 +179,13 @@ body {
     font-size: 33px;
     padding-top: 10px;
     padding-bottom: 10px;
-    /* opacity: 0; */
-    /* animation: fadeIn 1s forwards; */
+    font-style: italic;
+    font-weight: 600;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
 }
 
-/* .competences li:nth-child(1) {
+.competences li:nth-child(1) {
     animation-delay: 0s;
 }
 
@@ -254,7 +211,7 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
-} */
+}
 
 #resaux {
     display: flex;
@@ -317,10 +274,12 @@ svg {
     margin-right: 15%;
 
 }
-#presentation h2{
+
+#presentation h2 {
     text-align: center;
     font-size: 40px;
     margin-bottom: 40px;
+    color: #0d0d2b;
 }
 
 
@@ -328,10 +287,6 @@ svg {
     animation: slideFadeIn 2s ease forwards;
     text-align: center;
     padding: 2%;
-    /* padding-left: 30px;
-   padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px; */
     border: 1px solid black;
     border-radius: 20px;
     box-shadow: 2px 2px 9px black;
@@ -550,10 +505,7 @@ svg {
     margin-right: 10%;
     max-width: 80%;
     position: relative;
-    /* margin: auto;  */
     display: block;
-    /* box-shadow: 0 4px 4px 9px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1); */
-    /* transition: box-shadow 0.3s ease-in-out; */
 }
 
 .close {
@@ -587,7 +539,6 @@ svg {
     cursor: pointer;
     position: absolute;
     top: 45%;
-   
     padding: 16px;
     margin-top: -22px;
     color: black;
@@ -596,15 +547,15 @@ svg {
     font-size: 45px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
-    
+
 }
 
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-.slider-btn{
-    /* background-color: #0056b3; */
+
+.slider-btn {
     fill: #0056b3;
     border-radius: 50px;
     border: 1px solid #0056b3;
@@ -761,11 +712,12 @@ svg {
 }
 
 @media (max-width: 1440px) {
-    #about-me{
+    #about-me {
         width: 100%;
         padding-top: 150px;
-        
+
     }
+
     .navbar {
         position: fixed;
         width: 100%;
@@ -773,54 +725,20 @@ svg {
         opacity: 0.9;
     }
 
-    /* header {
-        height: 100px;
-    } */
-
- 
     #about-me-img {
         width: 25%;
-   
-        /* display: block; */
-        /* justify-content: center;
-        border-radius: 0; */
-        /* margin: 2%; */
-
-     }  
+    }
 
     #about-me-img img {
-    
+
         display: block;
-       max-width: 200px;
-      max-height: 200px;
-      border: 1px solid black ;
-        
+        max-width: 200px;
+        max-height: 200px;
+        border: 1px solid black;
+
     }
-
-
-    /* #about-me-description {
-        margin-right: 0;
-    }
-
-    .description {
-        padding-bottom: 20px;
-    } */
-
-    /* #presentation p {
-        background-color: red;
-        /*retrouver le probleme de margin */
-
-    /*retrouver le probleme de margin */
-    */
-    /* #modal {
-        padding: auto;
-    } */
 
     .modal-content {
-        /* position: relative;
-        margin: auto;
-        padding: 0; */
-        /* display: flex !important; */
         box-shadow: 0 4px 4px 9px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
         transition: box-shadow 0.3s ease-in-out;
     }
@@ -851,24 +769,16 @@ svg {
     #about-me-img {
         width: 100%;
         height: auto;
-        /* height: auto;
-        text-align: center;
-        padding-top: 0%;
-        margin: 0%; */
     }
 
-    /* #about-me-img img {
-        max-width: 220px;
-        left: 1px;
-    } */
-
     #about-me-description {
-        
+
         width: 100%;
         height: auto;
 
     }
-    #about-me-competences{
+
+    #about-me-competences {
         width: 100%;
         height: auto;
 
@@ -887,6 +797,7 @@ svg {
         padding-top: 40px;
         padding-bottom: 40px;
     }
+
     #about-me-competences {
         display: flex;
         flex-direction: column;
@@ -920,67 +831,16 @@ svg {
 
     }
 
-    /* #presentation {
-        margin-left: 10%;
-        margin-right: 10%;
-
-    }
-
-    #presentation p {
-        font-size: 20px;
-
-    } */
-
-    /* #contact-form {
-        background: radial-gradient(circle at 1.8% 4.8%, rgb(17, 23, 58) 0%, rgb(58, 85, 148) 90%);
-        box-shadow: 0px 1px 3px 2px black;
-        border-radius: 20px;
-        padding: 50px;
-        margin-top: 100px !important;
-        margin-bottom: 150px;
-    } */
-
     #contact-form:hover {
         transform: scale(1.02);
 
     }
 
-
-
-    /* #contact-form form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center !important;
-    } */
-
     .btn-primary {
-        /* font-size: 16px !important; */
         margin: auto;
         text-align: center;
         margin-top: 40px;
-        /* border-radius: 5px; */
     }
-
-    /* #contact-form h2 {
-        text-align: center;
-        font-size: 30px;
-        margin-bottom: 30px;
-        color: #fff;
-    } */
-
-    /* #contact-form button {
-        background-image: radial-gradient(circle at center center, rgb(71, 71, 71), rgb(8, 8, 8));
-        color: white;
-        opacity: 0.8;
-        font-weight: 600;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border-radius: 20px;
-        border: none;
-        font-size: 20px !important;
-    } */
 
     #contact-form button:hover {
         opacity: 1;
@@ -993,18 +853,10 @@ svg {
         color: white;
         font-weight: 300;
         text-decoration: underline;
-   
+
     }
 
 }
-
-
-
-
-
-
- 
-
 
 @media (max-width: 992px) {
     .navbar-collapse {
@@ -1039,7 +891,8 @@ svg {
     .navbar :hover {
         opacity: 0.99;
     }
-     .card {
+
+    .card {
         height: auto;
         width: 70%;
         margin: auto;
@@ -1055,29 +908,20 @@ svg {
 
     }
 
-    /* #about-me {
-        padding: 0;
-    } */
 
     #about-me-competences {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
+
     .languages {
         display: flex;
         justify-content: flex-start;
-       
-
     }
-    .languages ul{
+
+    .languages ul {
         justify-content: flex-start;
-    }
-
-    .languages li {
-        /* margin-left: -10px;
-        margin-right: -10px; */
-        
     }
 
     .competences ul {
@@ -1089,24 +933,12 @@ svg {
 
     .competences li {
         font-size: 22px;
-        font-style: italic;
-        font-weight: 600;
-        
-
     }
+
     #about-me-content {
         display: flex;
         flex-direction: column;
-        /* background-color: #0056b3; */
-        
     }
-
-    
-
-    /* #about-me-img img {
-        max-width: 220px;
-        left: 1px;
-    } */
 
     #about-me-description {
         width: 100%;
@@ -1120,16 +952,6 @@ svg {
         max-height: 150px;
     }
 
-    /* #contact-form {
-        background: radial-gradient(circle at 1.8% 4.8%, rgb(17, 23, 58) 0%, rgb(58, 85, 148) 90%);
-        box-shadow: 0px 1px 3px 2px black;
-        border-radius: 20px;
-        padding: 30px;
-        margin-top: 50px !important;
-        margin-bottom: 50px;
-        width: 60%;
-      
-    } */
 
     #contact-form:hover {
         transform: scale(1.02);
@@ -1145,56 +967,12 @@ svg {
 
     }
 
-
-
-    /* #contact-form h2 {
-        text-align: center;
-        font-size: 30px;
-        margin-bottom: 30px;
-        color: #fff;
-    } */
-
-    /* #contact-form button {
-        background-image: radial-gradient(circle at center center, rgb(71, 71, 71), rgb(8, 8, 8));
-        color: white;
-        opacity: 0.8;
-        font-weight: 600;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        border-radius: 20px;
-        border: none;
-        font-size: 18px !important;
-    } */
-
-
-
 }
 
 @media (max-width: 782px) {
-    /* #about-me H1 {
-        font-size: 60px;
-        text-align: center;
-    } */
-
-    /* #about-me h2 {
-        font-size: 30px;
-        text-align: center;
-        text-shadow: 2px 2px 1px black;
-    } */
-
     #about-me-description img {
         max-width: 35px;
     }
-    #presentation {
-        
-        /* text-align: center; */
-    }
-
-    /* #about-me {
-        padding: 0;
-    } */
 
     #about-me-competences {
         display: flex;
@@ -1202,12 +980,6 @@ svg {
         width: 100%;
     }
 
-    /* .languages ul{
-        display: flex;
-        justify-content: flex-start;
-        
-        
-    } */
 
     .languages i {
         margin-left: 10px;
@@ -1220,17 +992,12 @@ svg {
         flex-direction: row;
         justify-content: space-around;
         width: 100%;
-
-
     }
 
     .competences li {
         font-size: 20px;
 
-
     }
-
-    
 
     #contact-form {
         background: radial-gradient(circle at 1.8% 4.8%, rgb(17, 23, 58) 0%, rgb(58, 85, 148) 90%);
@@ -1240,7 +1007,7 @@ svg {
         margin-top: 50px !important;
         margin-bottom: 50px;
         width: 90%;
-        /* max-width: 800px; */
+
     }
 
     #contact-form:hover {
@@ -1272,49 +1039,36 @@ svg {
 }
 
 
-/* @media (max-width: 768px) {
-    .gallery-item {
-        flex: 1 1 calc(100% - 40px);
-    }
-
-} */
-
 @media (max-width: 682px) {
 
     .gallery-item {
         flex: 1 1 calc(100% - 40px);
     }
+
     #presentation {
-        width: 100%;
+        width: 90%;
         margin: auto;
 
     }
-    .languages{
-        /* background-color: #0056b3; */
-    }
-    .languages ul{
-        /* background-color: red; */
+
+    .languages {}
+
+    .languages ul {
+
         display: flex;
     }
-    .languages li{
+
+    .languages li {
         margin: 2px;
     }
-
-    /* .description {
-        padding-top: 0;
-    } */
-
-    /* #presentation h2 {
-        font-size: 20px!important;
-        margin-top: 0 !important;
-    } */
-    /* .description{
-        width: 100%;
-    } */
 
     .description p {
         font-size: 14px !important;
 
+    }
+
+    .competences {
+        padding-bottom: 20px;
     }
 
     .gallery-filter {
@@ -1343,16 +1097,15 @@ svg {
         padding: 0;
 
     }
+
     .competences ul {
         flex-direction: column;
         padding: 0;
         margin: 0;
     }
 
-    
+
     .gallery-filter {
-        /* display: flex;
-        flex-direction: column; */
         text-align: center;
         padding-left: 5%;
         padding-right: 5%;
@@ -1387,10 +1140,8 @@ svg {
 
 
 @media(max-width:428px) {
-    /* #about-me-img img{
-        display:none;
-    } */
-    
+
+
     .gallery-filter {
         justify-content: center;
         display: grid;
