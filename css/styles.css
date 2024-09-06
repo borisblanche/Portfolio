@@ -164,11 +164,11 @@ body {
     padding-bottom: 10px;
     font-style: italic;
     font-weight: 600;
-    opacity: 0;
-    animation: fadeIn 1s forwards;
+    opacity: 1;
+    /* animation: fadeIn 1s forwards; */
 }
 
-.competences li:nth-child(1) {
+/* .competences li:nth-child(1) {
     animation-delay: 0s;
 }
 
@@ -182,9 +182,9 @@ body {
 
 .competences li:nth-child(4) {
     animation-delay: 3s;
-}
+} */
 
-@keyframes fadeIn {
+/* @keyframes fadeIn {
     from {
         opacity: 0;
         transform: translateY(20px);
@@ -194,7 +194,7 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
-}
+} */
 
 #resaux {
     display: flex;
@@ -234,7 +234,7 @@ svg {
 
 }
 
-@keyframes slideFadeIn {
+/* @keyframes slideFadeIn {
     from {
         transform: translateX(-50px);
         opacity: 0;
@@ -244,7 +244,7 @@ svg {
         transform: translateX(0);
         opacity: 1;
     }
-}
+} */
 
 #presentation {
     margin-top: 90px;
@@ -262,7 +262,7 @@ svg {
 
 
 .description {
-    animation: slideFadeIn 2s ease forwards;
+    /* animation: slideFadeIn 2s ease forwards; */
     text-align: center;
     padding: 2%;
     border: 1px solid black;
